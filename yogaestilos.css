@@ -1,0 +1,402 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	color: #455A64;
+}
+
+section {
+	margin: 0 auto;
+}
+
+.container {
+  margin: 0;
+}
+
+p {
+	font-size: 1.1em;
+	text-align: justify;
+	line-height: 25px;
+	margin: 25px 50px;
+	padding: 5px 20px;
+}
+
+/* HEATHER */
+#logoclub {
+	display: block;
+	margin: auto;
+	width: 230px;
+	height: auto;
+	padding: 15px;
+}
+
+#menu  ul{
+	display: block;
+	margin: auto;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+#menu {
+	max-width: 100%;
+	width: 100%;
+	background: lightgrey;
+	}
+
+#menu li {
+		display: inline-flex;
+		margin: auto;
+		font-size: 1em;
+		padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #455A64;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: purple;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+}
+
+#titulo{
+	margin: 0 auto;
+	padding: 35px 0 15px 0;
+}
+
+#logo-triangulo{
+	width: 80px;
+	height: auto;
+	display: block;
+	padding: 30px 0 15px 0;
+	margin: auto;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 
+	-webkit-transform:rotate(180deg); 
+}
+
+/* SOBRE MI */
+#sobremi {
+	display: block;
+	padding-bottom: 15px;
+}
+
+#quote {
+	display: block;
+	margin: auto;
+	padding: 20px;
+	font-size: 1.1em;
+	text-align: justify;
+	line-height: 2em;
+	max-width: 100%;
+}
+
+#quote-name {
+	text-align: center;
+}
+
+.img-yoga {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+/* CLASES */ 
+.two-columns {
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	text-align: justify;
+} 
+
+.izquierda {
+	width: 650px;
+	float: left;
+}
+
+.derecha {
+	width: 650px;
+	float: right;
+}
+
+.button {
+	font-size: 18px;
+}
+
+#button-clases {
+	background-color: #455A64;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 32px;
+}
+
+#button-clases:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+#clases {
+	padding-bottom: 90px;
+}
+
+#logo-mudra {
+	width: 80px;
+	height: auto;
+	padding-top: 134px;
+}
+
+#logo-mano {
+	width: 80px;
+	height: auto;
+	padding-top: 200px;
+}
+/* MASAJES */
+.masajes {
+	margin: 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.masajes p {
+	width: 600px;
+	margin: 30px auto;
+}
+
+.logo-loto {
+	width: 80px;
+	height: auto;
+	padding-top: 150px;
+}
+
+
+/* CONTACTO */
+#contacto p {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #455A64;
+	border-radius: 1em;
+	padding-bottom: 25px;
+}
+
+form ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+	display: block;  
+	text-align: left;
+}
+
+input,
+textarea {
+	 font: 1em Comfortaa;
+	 width: 400px;
+	 box-sizing: border-box;
+	 border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  max-width: 400px;
+  min-width: 400px;
+  min-height: 100px;
+}
+
+.social {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	font-size: 0.80rem;
+	text-align: center;
+}
+#whatsapp-logo {
+	max-width: 40px;
+	max-height: auto;
+	display: inline-block;
+}
+
+#ig-logo {
+	max-width: 50px;
+	max-height: auto;
+	padding: 5px 0 6px 0;
+}
+
+#fb-logo {
+	max-width: 40px;
+	max-height: auto;
+	padding: 11px 11px 16px 11px;
+
+}
+
+#img-alliance {
+	max-width: 100px;
+	max-height: 100px;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Ubuntu Mono', monospace;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	margin-top: 25px; 
+	color: white;
+	text-align: center;
+	background: #455A64;
+}
+
+/* MÓVIL */
+
+@media screen and (max-width: 480px) {
+
+html {
+	font-size: 1em;
+}
+
+#logoclub {
+	display: block;
+	margin: auto;
+	width: 230px;
+	height: auto;
+	padding: 15px;
+}
+
+nav {
+	display: block;
+	margin: 0;
+}
+
+#menu ul li {
+	padding: 15px;
+}
+
+#logo-triangulo{
+	width: 45px;
+}
+
+.container{
+	max-width: 100%;
+}
+
+p {
+	font-size: 1em;
+	margin: 0;
+	padding: 15px;
+}
+
+#sobremi {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#quote {
+	width: 300px;
+	padding: 0;
+	margin: auto;
+}
+
+.two-columns {
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.izquierda {
+	max-width: 100%;
+}
+
+.derecha {
+	max-width: 100%;
+}
+
+#logo-mudra {
+	display: flex;
+	margin: auto;
+	width: 60px;
+	padding: 50px;
+}
+
+#clases {
+	padding-bottom: 20px;
+}
+
+.button {
+	display: flex;
+	margin: auto;
+	padding: 5px;
+}
+
+
+#logo-mano {
+	width: 60px;
+	display: flex;
+	margin: auto;
+	padding: 50px;
+}
+
+#cursos{
+	padding-bottom: 10px;
+}
+
+
+
+#masajes p{
+	width: 300px;
+}
+
+.logo-loto {
+	display: none;
+}
+
+form {
+	width: 300px;
+}
+
+input,
+textarea {
+	width: 300px;
+}
+
+textarea {
+	min-width: 300px;
+}
+
+.social {
+	font-size: 12px;
+}
+
+#ig-logo {
+	padding-top: 11px;
+}
